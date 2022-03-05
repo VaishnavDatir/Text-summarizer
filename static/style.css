@@ -1,0 +1,42 @@
+. {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 5% 10%;
+  background-color: #f9fafd;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: palevioletred;
+  font-family: "Fredoka", sans-serif;
+}
+
+#txt_input {
+  width: 100%;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  padding: 6px;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+}
+
+#btn_Submit {
+  border-radius: 0.5em;
+  background-color: rgb(61, 182, 252);
+  padding: 6px 12px;
+  font-family: "Fredoka", sans-serif;
+  font-size: 1.2em;
+  color: white;
+  font-weight: bold;
+  border-color: transparent;
+  margin-top: 5px;
+  float: right;
+}
+
+h4 {
+  margin-top: 1.2em;
+}
