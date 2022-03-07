@@ -14,7 +14,6 @@ def index():
     print("loaded...")
     print(request.method)
     if request.method == "POST":
-        print("inPost")
         global s
         s = ""
         text = request.form.get("txt_input")
@@ -56,7 +55,6 @@ def index():
         for sentence in sentences:
             if (sentence in sentenceValue) and (sentenceValue[sentence] > (1.2 * average)):
                 summary += " " + sentence
-        print("gere")
         if len(summary) < 3:
             return "ConverstionERR"
 

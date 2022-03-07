@@ -6,12 +6,12 @@
 
 body {
   margin: 5% 10%;
-  background-color: #f9fafd;
+  background-color: #fcfcfc;
   font-family: "Roboto", sans-serif;
 }
 
 h1 {
-  color: palevioletred;
+  color: rgb(83, 137, 209);
   font-family: "Fredoka", sans-serif;
 }
 
@@ -26,7 +26,7 @@ h1 {
 
 #btn_Submit {
   border-radius: 0.5em;
-  background-color: rgb(61, 182, 252);
+  background-color: rgb(83, 137, 209);
   padding: 6px 12px;
   font-family: "Fredoka", sans-serif;
   font-size: 1.2em;
@@ -39,4 +39,18 @@ h1 {
 
 h4 {
   margin-top: 1.2em;
+}
+
+.summaryText {
+  display: inline;
+  border-bottom: 3px solid rgb(83, 137, 209);
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(83, 137, 209);
+  color: white;
+  text-align: center;
 }
