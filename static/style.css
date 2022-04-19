@@ -54,3 +54,9 @@ h4 {
   color: white;
   text-align: center;
 }
+
+.devName {
+  font-family: "Fredoka", sans-serif;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+}

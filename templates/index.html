@@ -30,8 +30,8 @@
     </div>
     <div class="footer">
         <footer>
-            <p>The website by: Vaishnav Datir
-            </p>
+            <p style="font-family: Fredoka, sans-serif;">A project by <span class="devName">Vaishnav Datir, Sahil
+                    Suvarna</span> and<span class="devName"> Manoj Suvarna</span></p>
         </footer>
     </div>
 
@@ -62,8 +62,18 @@
 
                     }
                     else {
+                        var text = document.getElementById("txt_input").value;
+                        var numWords = 0;
+                        for (var i = 0; i < text.length; i++) {
+                            var currentCharacter = text[i];
+                            if (currentCharacter == " ") {
+                                numWords += 1;
+                            }
+                        }
+
+                        numWords += 1;
                         document.getElementById('theSummary').innerHTML = "The Summary";
-                        document.getElementById('summary').innerHTML = xhr.responseText + "<br><br>Total Words: " + xhr.responseText.split(" ").length;
+                        document.getElementById('summary').innerHTML = xhr.responseText + "<br><br>Total Words: " + xhr.responseText.split(" ").length + "<br><br>Original count of words: " + numWords;
                     }
                 }
             };
